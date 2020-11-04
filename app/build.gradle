@@ -31,10 +31,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    packagingOptions {
-        exclude("DebugProbesKt.bin")
-        exclude("META-INF/*.kotlin_module")
-    }
 }
 
 dependencies {
